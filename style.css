@@ -46,21 +46,29 @@ footer {
 .topo {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center; /* mantém o texto centralizado */
     gap: 20px;
-    text-align: left;
+    position: relative;
+    min-height: 140px; /* garante espaço pro logo maior */
 }
 
 .topo img {
-    width: 120px; /* aumenta o tamanho da logo */
+    position: absolute;
+    left: 20px;
+    width: 300px; /* aumenta o tamanho do logo */
+    height: auto;
+}
+
+.titulo {
+    text-align: center;
 }
 
 .titulo h1 {
     margin: 0;
-    font-size: 1.8em;
+    font-size: 2em; /* um pouco maior pro título */
 }
 
 .titulo p {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.1em;
 }
