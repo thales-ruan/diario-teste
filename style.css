@@ -43,3 +43,24 @@ footer {
     background-color: #e1e1e1;
     font-size: 0.9em;
 }
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: left;
+}
+
+.topo img {
+    width: 120px; /* aumenta o tamanho da logo */
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.titulo p {
+    margin: 0;
+    font-size: 1em;
+}
